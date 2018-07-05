@@ -74,6 +74,7 @@ namespace Microsoft.AspNetCore.Proxy
                         return Task.CompletedTask;
                     }
                 };
+                }
 
                 services.AddMvc()
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
